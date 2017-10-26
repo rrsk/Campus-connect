@@ -12,6 +12,8 @@ def my_form():
 def homepage():
     return render_template('home.html')
 
+# my contribution :)
+
 @app.route('/freedata')
 def free():
     return render_template('freedata.html')
